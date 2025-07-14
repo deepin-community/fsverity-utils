@@ -1,0 +1,10 @@
+libfsverity.so.0 libfsverity0 #MINVER#
+* Build-Depends-Package: libfsverity-dev
+ libfsverity_compute_digest@Base 1.2
+ libfsverity_enable@Base 1.3
+ libfsverity_enable_with_sig@Base 1.3
+ libfsverity_find_hash_alg_by_name@Base 1.2
+ libfsverity_get_digest_size@Base 1.2
+ libfsverity_get_hash_name@Base 1.2
+ libfsverity_set_error_callback@Base 1.2
+ libfsverity_sign_digest@Base 1.2
